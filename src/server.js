@@ -4,7 +4,7 @@ const path = require('path')
 //iniciar aplicacion
 const app = express();
 //archivos estaticos
-app.use(express.static(path.join(__dirname,'plublic')));
+app.use(express.static(path.join(__dirname,'public')));
 // motor de html
 const Handlebars = require('express-handlebars');
 
