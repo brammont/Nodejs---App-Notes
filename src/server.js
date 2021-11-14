@@ -26,6 +26,7 @@ app.use(express.urlencoded({extended:false}));
 //variables globales
 
 //rutas
+app.use(require('./routes/index.routes'))
 app.get('/',(req,res)=>{
     res.render('index');
 })
